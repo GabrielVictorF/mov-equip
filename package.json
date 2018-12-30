@@ -1,0 +1,21 @@
+{
+  "name": "mv-equip",
+  "version": "0.1.0",
+  "description": "Aplicativo desktop para gerenciamento de equipamentos da SEPOG de Fortaleza",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . mv-equip"
+  },
+  "author": "Gabriel Victor <gabriel.victor.ti@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
