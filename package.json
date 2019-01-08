@@ -10,12 +10,8 @@
   "author": "Gabriel Victor <gabriel.victor.ti@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^4.0.0",
-    "typescript": "^3.2.2"
+    "electron": "^4.0.0"
   },
   "dependencies": {
-    "express": "^4.16.4",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.5"
   }
 }
